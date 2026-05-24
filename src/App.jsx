@@ -155,7 +155,7 @@ function App() {
 
   const [topic, setTopic] = useState("sports");
 
-  const [language, setLanguage] = useState("en-GB");
+  const [language, setLanguage] = useState("en");
 
   const [articles, setArticles] = useState([]);
 
@@ -552,7 +552,7 @@ function App() {
               <div className={`space-y-2 max-h-64 overflow-y-auto pr-1 ${scrollClass}`}>
 
                 {[
-                 ["English", "en-GB"],
+                 ["English", "en"],
                  ["Hindi", "hi-IN"],
                  ["Tamil", "ta-IN"],
                  ["Telugu", "te-IN"],
