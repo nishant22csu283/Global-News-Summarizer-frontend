@@ -553,9 +553,9 @@ function App() {
 
                 {[
                  ["English", "en"],
-                 ["Hindi", "hi"],
-                 ["Tamil", "ta"],
-                 ["Telugu", "te"],
+                 ["Hindi", "hi-IN"],
+                 ["Tamil", "ta-IN"],
+                 ["Telugu", "te-IN"],
                  ["Malayalam", "ml"],
                  ["Marathi", "mr"],
                  ["Bengali", "bn"],
@@ -563,7 +563,7 @@ function App() {
                  ["French", "fr"],
                  ["Spanish", "es"],
                  ["German", "de"],
-                 ["Chinese", "zh-cn"],
+                 ["Chinese", "zh-CN"],
                  ["Japanese", "ja"],
                  ["Korean", "ko"],
                  ["Arabic", "ar"],
