@@ -155,7 +155,7 @@ function App() {
 
   const [topic, setTopic] = useState("sports");
 
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("en-GB");
 
   const [articles, setArticles] = useState([]);
 
@@ -552,21 +552,21 @@ function App() {
               <div className={`space-y-2 max-h-64 overflow-y-auto pr-1 ${scrollClass}`}>
 
                 {[
-                 ["English", "en"],
+                 ["English", "en-GB"],
                  ["Hindi", "hi-IN"],
                  ["Tamil", "ta-IN"],
                  ["Telugu", "te-IN"],
-                 ["Malayalam", "ml"],
-                 ["Marathi", "mr"],
-                 ["Bengali", "bn"],
-                 ["Punjabi", "pa"],
-                 ["French", "fr"],
-                 ["Spanish", "es"],
-                 ["German", "de"],
+                 ["Malayalam", "ml-IN"],
+                 ["Marathi", "mr-IN"],
+                 ["Bengali", "bn-IN"],
+                 ["Punjabi", "pa-IN"],
+                 ["French", "fr-FR"],
+                 ["Spanish", "es-ES"],
+                 ["German", "de-DE"],
                  ["Chinese", "zh-CN"],
-                 ["Japanese", "ja"],
-                 ["Korean", "ko"],
-                 ["Arabic", "ar"],
+                 ["Japanese", "ja-JP"],
+                 ["Korean", "ko-KR"],
+                 ["Arabic", "ar-SA"],
                 ].map(([name, code]) => (
 
                   <button
